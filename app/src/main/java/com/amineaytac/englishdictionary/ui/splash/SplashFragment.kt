@@ -1,5 +1,6 @@
 package com.amineaytac.englishdictionary.ui.splash
 
+import android.content.Context
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -21,9 +22,23 @@ class SplashFragment : Fragment() {
         binding = FragmentSplashBinding.inflate(inflater, container, false)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            findNavController().navigate(R.id.action_splashFragment_to_onBoardingFragment)
-        }, 4000)
+
+            if (onBoardingIsFinished()) {
+                findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
+            } else {
+                findNavController().navigate(R.id.action_splashFragment_to_onBoardingFragment)
+            }
+        }, 3000)
 
         return binding.root
+    }
+
+    private fun onBoardingIsFinished(): Boolean {
+        val sharedPreferences =
+            requireActivity().getSharedPreferences(
+                getString(R.string.on_boarding),
+                Context.MODE_PRIVATE
+            )
+        return sharedPreferences.getBoolean("finished", false)
     }
 }
