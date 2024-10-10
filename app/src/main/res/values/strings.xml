@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">EnglishDictionary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <string name="first">Use English more effectively! Learn the meaning, correct pronunciation
+        and usage of words, and express yourself better in conversations.</string>
+    <string name="second">Learn English anytime, anywhere! Improve your English skills by accessing
+        word meanings, pronunciations and usage examples with just one touch.</string>
+    <string name="third">Discover a vocabulary that opens up to the world! Take your language skills
+        to a global level by learning the meanings, correct pronunciations and usage of English words.</string>
+
+    <string name="on_boarding">onBoarding</string>
+    <string name="finished">finished</string>
 </resources>

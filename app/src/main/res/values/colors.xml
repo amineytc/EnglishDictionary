@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="black_pearl">#06141B</color>
+    <color name="firefly">#11212D</color>
+    <color name="dark_slate_grey">#253745</color>
+    <color name="slate">#4A5C6A</color>
+    <color name="grey_chateau">#9BA8AB</color>
+    <color name="grey_goose">#CCD0CF</color>
 </resources>
