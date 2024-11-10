@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_background">#FFFFFF</color>
+    <color name="dark_background">#000000</color>
+
+    <color name="light_search_background">#FFFFFF</color>
+    <color name="dark_search_background">#FFFFFF</color>
+
+    <color name="light_text_color">#000000</color>
+    <color name="dark_text_color">#FFFFFF</color>
+
+    <color name="light_header_one_text_color">#11212D</color>
+    <color name="dark_header_one_text_color">#4A5C6A</color>
+
+    <color name="light_header_two_text_color">#4A5C6A</color>
+    <color name="dark_header_two_text_color">#9BA8AB</color>
+
+    <color name="light_card_view_stroke_color">#253745</color>
+    <color name="dark_card_view_stroke_color">#9BA8AB</color>
+
+</resources>
