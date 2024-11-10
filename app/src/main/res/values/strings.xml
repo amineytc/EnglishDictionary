@@ -15,4 +15,10 @@
 
     <string name="on_boarding">onBoarding</string>
     <string name="finished">finished</string>
+    <string name="phonetics">Phonetics</string>
+    <string name="meanings">Meanings</string>
+    <string name="definitions">Definitions :</string>
+    <string name="synonyms">Synonyms :</string>
+    <string name="antonyms">Antonyms :</string>
+    <string name="noun">noun</string>
 </resources>

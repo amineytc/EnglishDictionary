@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/background"
     tools:context=".ui.onboarding.screens.ThirdFragment">
 
     <ImageView
@@ -27,7 +27,7 @@
         android:fontFamily="@font/lusitana_regular"
         android:text="@string/third"
         android:textAlignment="center"
-        android:textColor="@color/dark_slate_grey"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/_18ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
         android:layout_marginBottom="@dimen/_28sdp"
         android:fontFamily="@font/lusitana_regular"
         android:text="@string/finish"
-        android:textColor="@color/firefly"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/_16ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
